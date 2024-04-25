@@ -26,7 +26,7 @@ body.poster {
 @media screen and (min-width: 900px) {
     .box-G {
         width: 640px;
-        height: 350px;
+        height: 325px;
         object-fit: cover;
     }
 }
@@ -88,18 +88,18 @@ a:link {
 .a-estilo:hover {
     text-decoration: underline;
     text-underline-offset: .2em;
-    text-decoration-color: var(--bs-warning);
+    text-decoration-color: var(--bs-danger);
 }
 
 p {
-    font-size: 1.15rem;
+    font-size: 1.045rem;
     line-height: 155%;
     -webkit-font-smoothing: antialiased;
-    margin-bottom: 1.7rem;
+    margin-bottom: 1.6rem;
 }
 
 .p-quadro {
-    font-size: 1.1rem;
+    font-size: 1.025rem;
     line-height: 160%;
 }
 
@@ -144,13 +144,13 @@ h5 {
 
 .lead {
     font-weight: 600;
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     line-height: 1.6;
 }
 
 @media screen and (max-width: 900px) {
     .lead {
-        font-size: 1.1rem;
+        font-size: 1.15rem;
     }
 }
 

@@ -21,7 +21,7 @@
         <dmdesign active>
             <dmdesignskill skill="bs5.colors" harmony="">
                 <dmcolor key="primary" color="#9aaeb0"/>
-                <dmcolor key="secondary" color="#111d4d"/>
+                <dmcolor key="secondary" color="#121c42"/>
                 <dmcolor key="info" color="rgb(244,228,252)"/>
                 <dmcolor key="success" color="#565656"/>
                 <dmcolor key="warning" color="#d04a02"/>
@@ -30,8 +30,8 @@
                 <dmcolor key="light" color="#f0f0f0"/>
                 <dmcolor key="dark" color="#3d3c3c"/>
             </dmdesignskill>
-            <dmdesignskill skill="fonts" text_weight="500" text_color="$dark" text_spacing text_effect="" text_italic="" text_smallcaps="" text_uppercase="" headings_weight="700" headings_color="$dark" headings_spacing headings_effect="" headings_italic="" headings_smallcaps="" headings_uppercase="" text_family="Inter" headings_family="Open Sans" lead_weight lead_color="$danger" lead_spacing=".01em"></dmdesignskill>
-            <dmdesignskill skill="headings" h2_spacing="-.02em" h3_spacing="-.015em" h1_family h1_weight></dmdesignskill>
+            <dmdesignskill skill="fonts" text_weight text_color="$dark" text_spacing text_effect="" text_italic="" text_smallcaps="" text_uppercase="" headings_weight="700" headings_color="$dark" headings_spacing headings_effect="" headings_italic="" headings_smallcaps="" headings_uppercase="" text_family="Inter" headings_family="Noto Serif JP" lead_weight lead_color="$danger" lead_spacing=".01em"></dmdesignskill>
+            <dmdesignskill skill="headings" h2_spacing="-.02em" h3_spacing="-.01em" h1_family h1_weight></dmdesignskill>
             <dmdesignskill skill="background" image_for_colors keyword="finance" selector=".poster" image="https://images.unsplash.com/photo-1608222351212-18fe0ec7b13b?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDEwN3x8ZmluYW5jZXxlbnwwfHx8fDE2Mjg2NDA1NTc&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=1200&fit=max"></dmdesignskill>
             <dmdesignskill skill="bootstrap" gradients="" responsive_fonts="" roundness="1" buttonRoundness="1" shadows="0" contrast="0"></dmdesignskill>
         </dmdesign>
