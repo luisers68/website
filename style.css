@@ -15,13 +15,18 @@ body.poster {
 
 /* Pinegrow */
 
+@font-face {
+    font-family: 'GeistVF';
+    src: url(./fonts/GeistVF.ttf) format("ttf");
+    src: url(./fonts/GeistVF.woff) format("woff");
+    src: url(./fonts/GeistVF.woff2) format("woff2");
+}
+
 .box {
     width: 350px;
     height: 200px;
     object-fit: cover;
 }
-
-.box-G {}
 
 @media screen and (min-width: 900px) {
     .box-G {
@@ -112,6 +117,7 @@ p {
 .t-carrossel {
     font-size: 1.2rem;
     font-weight: 600;
+    color: var(--bs-primary);
 }
 
 h1,
@@ -122,6 +128,7 @@ h5 {
     /*    transform: scaleY(1.05);
     transform-origin: 0 0;*/
     -webkit-font-smoothing: antialiased;
+    font-family: 'GeistVF';
 }
 
 .t-quadro {
@@ -142,7 +149,7 @@ h5 {
 }
 
 .lead {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.25rem;
     line-height: 1.6;
 }
@@ -154,17 +161,17 @@ h5 {
 }
 
 h1 {
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.2;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) { /* max = celular */
     h1 {
         font-size: 2.85rem;
     }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 900px) { /* min = notebook */
     h1 {
         font-size: 3rem;
     }
@@ -177,12 +184,14 @@ h2 {
 @media screen and (max-width: 900px) {
     h2 {
         font-size: 2.1rem;
+        font-weight: 500;
     }
 }
 
 @media screen and (min-width: 900px) {
     h2 {
-        font-size: 2.3rem;
+        font-size: 2.375rem;
+        font-weight: 600;
     }
 }
 
