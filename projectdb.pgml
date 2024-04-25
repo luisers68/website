@@ -21,7 +21,7 @@
         <dmdesign active>
             <dmdesignskill skill="bs5.colors" harmony="">
                 <dmcolor key="primary" color="#9aaeb0"/>
-                <dmcolor key="secondary" color="#121c42"/>
+                <dmcolor key="secondary" color="#0f1738"/>
                 <dmcolor key="info" color="rgb(244,228,252)"/>
                 <dmcolor key="success" color="#565656"/>
                 <dmcolor key="warning" color="#d04a02"/>

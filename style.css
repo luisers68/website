@@ -92,7 +92,7 @@ a:link {
 }
 
 p {
-    font-size: 1.045rem;
+    font-size: 1.05rem;
     line-height: 155%;
     -webkit-font-smoothing: antialiased;
     margin-bottom: 1.6rem;
@@ -110,7 +110,6 @@ p {
 }
 
 .t-carrossel {
-    font-family: 'Open Sans';
     font-size: 1.2rem;
     font-weight: 600;
 }
@@ -132,7 +131,7 @@ h5 {
 }
 
 .sub-titulo {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 700;
 }
 
@@ -183,13 +182,13 @@ h2 {
 
 @media screen and (min-width: 900px) {
     h2 {
-        font-size: 2.37rem;
+        font-size: 2.3rem;
     }
 }
 
 @media screen and (max-width: 900px) {
     h3 {
-        font-size: 1.9rem;
+        font-size: 1.8rem;
         line-height: 1.25em;
     }
 }
