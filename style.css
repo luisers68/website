@@ -51,6 +51,7 @@ li {
     -webkit-border-radius: 0 !important;
     -moz-border-radius: 0 !important;
     border-radius: 0 !important;
+    letter-spacing: 0.025em;
 }
 
 a {
@@ -64,7 +65,8 @@ a:link {
     text-decoration: none;
 }
 
-.a-estilo {}
+.a-estilo {
+}
 
 .a-estilo:hover {
     text-decoration: underline;
@@ -101,8 +103,8 @@ h2,
 h3,
 h4,
 h5 {
-    /*    transform: scaleY(1.05);
-    transform-origin: 0 0;*/
+    /* transform: scaleY(1.05);
+    transform-origin: 0 0; */
     -webkit-font-smoothing: antialiased;
 }
 
@@ -139,14 +141,16 @@ h1 {
     line-height: 1.2;
 }
 
-@media screen and (max-width: 900px) { /* max = celular */
+@media screen and (max-width: 900px) {
+    /* max = celular */
     h1 {
         font-size: 2.85rem;
         font-weight: 500;
     }
 }
 
-@media screen and (min-width: 900px) { /* min = notebook */
+@media screen and (min-width: 900px) {
+    /* min = notebook */
     h1 {
         font-size: 3rem;
         font-weight: 600;
@@ -220,7 +224,8 @@ h4 {
     width: 60px;
 }
 
-div.esconder {}
+div.esconder {
+}
 
 @media screen and (max-width: 900px) {
     div.esconder {
@@ -228,7 +233,8 @@ div.esconder {}
     }
 }
 
-div.mostrar {}
+div.mostrar {
+}
 
 @media screen and (min-width: 900px) {
     div.mostrar {
