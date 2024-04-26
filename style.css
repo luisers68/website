@@ -1,4 +1,3 @@
-/* Pinegrow */
 @media (max-width:991px) {
     body.poster {
         margin-top: 60vh;
@@ -11,15 +10,6 @@ body.poster {
 
 .top-5 {
     top: 5px;
-}
-
-/* Pinegrow */
-
-@font-face {
-    font-family: 'GeistVF';
-    src: url(./fonts/GeistVF.ttf) format("ttf");
-    src: url(./fonts/GeistVF.woff) format("woff");
-    src: url(./fonts/GeistVF.woff2) format("woff2");
 }
 
 .box {
@@ -36,13 +26,6 @@ body.poster {
     }
 }
 
-/* .btn-hover {}
-
-.btn-hover:hover {
-    background-color: var(--bs-info) !important;
-    color: var(--bs-white) !important;
-} */
-
 .accordion-item,
 .accordion-button {
     border-radius: 0 !important;
@@ -53,13 +36,6 @@ body.poster {
     padding-right: 0px;
     height: 4rem;
 }
-
-/*
-.menu-blur {
-    -webkit-backdrop-filter: blur(7px);
-    backdrop-filter: blur(7px);
-}
-*/
 
 ul {
     list-style: url('./images/square-fill.svg');
@@ -128,7 +104,6 @@ h5 {
     /*    transform: scaleY(1.05);
     transform-origin: 0 0;*/
     -webkit-font-smoothing: antialiased;
-    font-family: 'GeistVF';
 }
 
 .t-quadro {
@@ -161,37 +136,38 @@ h5 {
 }
 
 h1 {
-    font-weight: 500;
     line-height: 1.2;
 }
 
 @media screen and (max-width: 900px) { /* max = celular */
     h1 {
         font-size: 2.85rem;
+        font-weight: 500;
     }
 }
 
 @media screen and (min-width: 900px) { /* min = notebook */
     h1 {
         font-size: 3rem;
+        font-weight: 600;
     }
 }
 
 h2 {
-    line-height: 1.2;
+    line-height: 1.4;
 }
 
 @media screen and (max-width: 900px) {
     h2 {
         font-size: 2.1rem;
-        font-weight: 500;
+        font-weight: 600;
     }
 }
 
 @media screen and (min-width: 900px) {
     h2 {
-        font-size: 2.375rem;
-        font-weight: 600;
+        font-size: 2.175rem;
+        font-weight: 700;
     }
 }
 
@@ -199,13 +175,15 @@ h2 {
     h3 {
         font-size: 1.8rem;
         line-height: 1.25em;
+        font-weight: 700;
     }
 }
 
 @media screen and (min-width: 900px) {
     h3 {
-        font-size: 1.6rem;
+        font-size: 1.7rem;
         line-height: 1.3em;
+        font-weight: 700;
     }
 }
 
