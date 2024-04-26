@@ -31,6 +31,11 @@ body.poster {
     border-radius: 0 !important;
 }
 
+.item-menu {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
 .pad0 {
     padding-left: 0px;
     padding-right: 0px;
@@ -43,7 +48,7 @@ ul {
 
 li {
     margin: .2rem;
-    font-size: 1.05rem;
+    font-size: 1.025rem;
     color: var(--bs-success);
 }
 
@@ -75,14 +80,14 @@ a:link {
 }
 
 p {
-    font-size: 1.05rem;
-    line-height: 155%;
+    font-size: 1.075rem;
+    line-height: 160%;
     -webkit-font-smoothing: antialiased;
-    margin-bottom: 1.6rem;
+    margin-bottom: 1.5rem;
 }
 
 .p-quadro {
-    font-size: 1.025rem;
+    font-size: 1.035rem;
     line-height: 160%;
 }
 
