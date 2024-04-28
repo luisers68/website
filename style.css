@@ -57,6 +57,7 @@ li {
     -moz-border-radius: 0 !important;
     border-radius: 0 !important;
     letter-spacing: 0.025em;
+/*    border-radius: 0px 10px 0px 10px;*/
 }
 
 a {
