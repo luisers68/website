@@ -89,7 +89,9 @@ p {
 
 .p-quadro {
     font-size: 1.035rem;
-    line-height: 160%;
+    line-height: 1.7;
+    letter-spacing: .03rem;
+    color: var(--bs-dark);
 }
 
 .p-carrossel {
