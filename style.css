@@ -81,14 +81,14 @@ a:link {
 }
 
 p {
-    font-size: 1.09rem;
+    font-size: 1.0925rem;
     line-height: 1.7;
     -webkit-font-smoothing: antialiased;
     margin-bottom: 1.55rem;
 }
 
 .p-quadro {
-    font-size: 1.035rem;
+    font-size: 1.04rem;
     line-height: 1.7;
     letter-spacing: .03rem;
     color: var(--bs-dark);
