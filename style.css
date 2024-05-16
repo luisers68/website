@@ -81,17 +81,18 @@ a:link {
 }
 
 p {
-    font-size: 1.0925rem;
+    font-size: 1.095rem;
     line-height: 1.7;
     -webkit-font-smoothing: antialiased;
     margin-bottom: 1.55rem;
 }
 
 .p-quadro {
-    font-size: 1.03rem;
-    line-height: 1.7;
-    letter-spacing: .02rem;
-    color: var(--bs-dark);
+    font-size: 1.05rem;
+    line-height: 1.75;
+    /*letter-spacing: .01rem;*/
+    font-weight: 400;
+    color: var(--bs-secondary);
 }
 
 .p-carrossel {
@@ -123,7 +124,7 @@ h5 {
 }
 
 .sub-titulo {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 700;
 }
 
@@ -169,7 +170,7 @@ h1 {
     h2 {
         font-size: 2.1rem;
         font-weight: 600;
-        line-height: 1.35;
+        line-height: 1.3;
     }
 }
 
