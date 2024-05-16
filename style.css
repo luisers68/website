@@ -88,10 +88,9 @@ p {
 }
 
 .p-quadro {
-    font-size: 1.05rem;
+    font-size: 1.075rem;
     line-height: 1.75;
-    /*letter-spacing: .01rem;*/
-    font-weight: 400;
+    letter-spacing: .01rem;
     color: var(--bs-secondary);
 }
 
