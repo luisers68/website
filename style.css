@@ -81,7 +81,7 @@ a:link {
 }
 
 p {
-    font-size: 1.095rem;
+    font-size: 1.045rem; /*1.095rem;*/
     line-height: 1.7;
     -webkit-font-smoothing: antialiased;
     margin-bottom: 1.55rem;
