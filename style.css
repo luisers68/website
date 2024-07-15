@@ -81,20 +81,20 @@ a:link {
 }
 
 p {
-    font-size: 1.045rem; /*1.095rem;*/
-    line-height: 1.7;
+    font-size: 1.04rem; /*1.095rem;*/
+    line-height: 1.85;
     -webkit-font-smoothing: antialiased;
     margin-bottom: 1.55rem;
 }
 
 .p-quadro {
-    font-size: 1.0875rem;
-    line-height: 1.75;
-    /*font-weight: 400;*/
+    font-size: 1.0775rem;
+    line-height: 1.85;
+    font-weight: 400;
 }
 
 .p-carrossel {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     line-height: 160%;
     font-weight: 300;
 }
