@@ -81,16 +81,17 @@ a:link {
 }
 
 p {
-    font-size: 1.04rem; /*1.095rem;*/
+    font-size: 1.085rem;
     line-height: 1.85;
     -webkit-font-smoothing: antialiased;
     margin-bottom: 1.55rem;
 }
 
 .p-quadro {
-    font-size: 1.03rem;
+    font-size: 1.09rem;
     line-height: 1.9;
     font-weight: 400;
+    color: var(--bs-success);
 }
 
 .p-carrossel {
@@ -116,7 +117,7 @@ h5 {
 }
 
 .t-quadro {
-    font-size: 1.1rem;
+    font-size: 1.0925rem;
     font-weight: 700;
     line-height: 1.5em;
 }
