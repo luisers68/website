@@ -47,9 +47,9 @@ ul {
 }
 
 li {
-    margin: .2rem;
-    font-size: 1.025rem;
-    color: var(--bs-success);
+    margin: .15rem;
+    font-size: 1.05rem;
+    font-weight: 300;
 }
 
 .semCurva {
@@ -82,14 +82,14 @@ a:link {
 
 p {
     font-size: 1.085rem;
-    line-height: 1.6;
+    line-height: 1.575;
     -webkit-font-smoothing: antialiased;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.15rem;
 }
 
 .p-quadro {
     font-size: 1.025rem;
-    line-height: 1.9;
+    line-height: 1.5;
     font-weight: 400;
     color: var(--bs-success);
 }
@@ -128,7 +128,7 @@ h5 {
 }
 
 .sub-h1 {
-    font-weight: 600;
+    font-weight: 300;
     font-size: 1.4rem;
     line-height: 1.6;
 }
@@ -153,7 +153,7 @@ h1 {
     /* max = celular */
     h1 {
         font-size: 2.85rem;
-        font-weight: 500;
+        font-weight: 200;
     }
 }
 
@@ -161,7 +161,7 @@ h1 {
     /* min = notebook */
     h1 {
         font-size: 3rem;
-        font-weight: 600;
+        font-weight: 200;
     }
 }
 
@@ -175,8 +175,8 @@ h1 {
 
 @media screen and (min-width: 900px) {
     h2 {
-        font-size: 2.175rem;
-        font-weight: 300;
+        font-size: 2.5rem;
+        font-weight: 200;
         line-height: 1.4;
     }
 }
